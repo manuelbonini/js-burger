@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+.wrapper {
+    width: 600px;
+}
+
+.small-container {
+    width: 80%;
+    margin: auto;
+}
+
+/* HEADER */
+header {
+    background-color: #f4bd59;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/* MAIN */
+main {
+    padding-top: 40px;
+}
+
+.dim-input {
+    font-size: 25px;
+    border: 0;
+}
+
+main h2 {
+    padding-top: 30px;
+}
+
+main li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+li img {
+    width: 50px;
+}
+
+li p {
+    padding-left: 20px;
+}
+
+li input {
+    padding-left: 10px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
